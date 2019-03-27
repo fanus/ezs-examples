@@ -6,3 +6,5 @@
 /[Ll]ogs/
 .vs
 
+*.sln
+*.csproj
