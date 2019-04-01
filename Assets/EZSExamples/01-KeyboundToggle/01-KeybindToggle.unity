@@ -573,6 +573,7 @@ MonoBehaviour:
   KeyboardBindings:
   - Key: 32
     Event: 0
+    TriggerWhen: 0
 --- !u!1 &2134790511
 GameObject:
   m_ObjectHideFlags: 0
