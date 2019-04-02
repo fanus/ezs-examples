@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/EZSExamples/02-ButtonToggle/02-ButtonToggle.unity
+    guid: b64c86904c73920468b9e72844e6321b
   m_configObjects: {}
