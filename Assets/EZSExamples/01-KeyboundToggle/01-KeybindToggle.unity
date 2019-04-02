@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -319,7 +319,6 @@ MonoBehaviour:
   m_Script: {fileID: -1594624727, guid: 4eacff95a65fdce489120ce9a97dc074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  systems: []
 --- !u!114 &1049384210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,8 +333,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SystemIndex: 0
   StartEventStride: 0
-  keyboardComponent: {fileID: 0}
-  characterComponent: {fileID: 0}
 --- !u!114 &1049384211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +347,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SystemIndex: 1
   StartEventStride: 0
-  characterComponent: {fileID: 0}
 --- !u!114 &1049384212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,7 +361,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SystemIndex: 2
   StartEventStride: 0
-  keyboardComponent: {fileID: 0}
 --- !u!1 &1719961495
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,7 +568,7 @@ MonoBehaviour:
   KeyboardBindings:
   - Key: 32
     Event: 0
-    TriggerWhen: 0
+    TriggerWhen: 1
 --- !u!1 &2134790511
 GameObject:
   m_ObjectHideFlags: 0
