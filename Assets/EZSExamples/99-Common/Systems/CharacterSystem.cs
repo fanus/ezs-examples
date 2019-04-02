@@ -2,7 +2,7 @@
 
 public class CharacterSystem : EZS.SystemCore
 {
-    private CharacterComponent characterComponent;
+    public CharacterComponent characterComponent;
     private SpriteRenderer characterSprite;
 
     public enum CharacterEvents

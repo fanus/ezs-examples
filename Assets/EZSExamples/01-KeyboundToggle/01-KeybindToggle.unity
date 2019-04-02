@@ -121,8 +121,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 501044512}
-  - component: {fileID: 501044511}
   - component: {fileID: 501044513}
+  - component: {fileID: 501044511}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -142,7 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0946912d87931754cb6c6bb7f1eda6e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Muted: 0
   EquipedSprite: {fileID: 21300000, guid: e853d23f0023dca4f912f70237c984f9, type: 3}
   UnequipSprite: {fileID: 21300000, guid: 852863bcf1eefb84c913b66eff2028e2, type: 3}
 --- !u!4 &501044512
@@ -320,10 +319,7 @@ MonoBehaviour:
   m_Script: {fileID: -1594624727, guid: 4eacff95a65fdce489120ce9a97dc074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  systems:
-  - {fileID: 1049384211}
-  - {fileID: 1049384212}
-  - {fileID: 1049384210}
+  systems: []
 --- !u!114 &1049384210
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -338,6 +334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SystemIndex: 0
   StartEventStride: 0
+  keyboardComponent: {fileID: 0}
+  characterComponent: {fileID: 0}
 --- !u!114 &1049384211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -352,6 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SystemIndex: 1
   StartEventStride: 0
+  characterComponent: {fileID: 0}
 --- !u!114 &1049384212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,7 +364,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SystemIndex: 2
-  StartEventStride: 3
+  StartEventStride: 0
+  keyboardComponent: {fileID: 0}
 --- !u!1 &1719961495
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,7 +1,7 @@
 ﻿public class KeyboardCharacterSystem : EZS.SystemCore
 {
-    private KeyboardComponent keyboardComponent;
-    private CharacterComponent characterComponent;
+    public KeyboardComponent keyboardComponent;
+    public CharacterComponent characterComponent;
 
     public override void InitSystem()
     {

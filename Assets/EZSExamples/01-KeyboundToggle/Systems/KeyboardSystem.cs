@@ -2,7 +2,7 @@
 
 public class KeyboardSystem : EZS.SystemCore
 {
-    private KeyboardComponent keyboardComponent;
+    public KeyboardComponent keyboardComponent;
 
     public override void InitSystem()
     {
