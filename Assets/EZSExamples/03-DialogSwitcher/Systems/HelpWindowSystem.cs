@@ -12,7 +12,7 @@
     public override void InitSystem()
     {
         RegisterEventEnum<MainMenuEvents>();
-        RegisterComponent<HelpWindowComponent>(a => a.DefineComponent(ref helpWindowComponent), b => b.NullComponent(ref helpWindowComponent));
+        RegisterComponents<HelpWindowComponent>(a => a.PushComponent(ref helpWindowComponent), b => b.PopComponent(ref helpWindowComponent));
     }
 
     [EnumAction(typeof(MainMenuEvents))]

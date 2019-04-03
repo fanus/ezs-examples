@@ -10,8 +10,8 @@ public class HelpWindowSettingsWindowSystem : EZS.SystemCore
     public override void InitSystem()
     {
         isIntermediate = true;
-        RegisterComponent<HelpWindowComponent>(a => a.DefineComponent(ref helpWindowComponent), b => b.NullComponent(ref helpWindowComponent));
-        RegisterComponent<SettingsWindowComponent>(a => a.DefineComponent(ref settingsWindowComponent), b => b.NullComponent(ref settingsWindowComponent));
+        RegisterComponents<HelpWindowComponent>(a => a.PushComponent(ref helpWindowComponent), b => b.PopComponent(ref helpWindowComponent));
+        RegisterComponents<SettingsWindowComponent>(a => a.PushComponent(ref settingsWindowComponent), b => b.PopComponent(ref settingsWindowComponent));
     }
 
     protected override void UpdateSystem()

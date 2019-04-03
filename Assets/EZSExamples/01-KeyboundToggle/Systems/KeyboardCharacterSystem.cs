@@ -6,8 +6,8 @@
     public override void InitSystem()
     {
         isIntermediate = true;
-        RegisterComponent<KeyboardComponent>(a => a.DefineComponent(ref keyboardComponent), b => b.NullComponent(ref keyboardComponent));
-        RegisterComponent<CharacterComponent>(a => a.DefineComponent(ref characterComponent), b => b.NullComponent(ref characterComponent));
+        RegisterComponents<KeyboardComponent>(a => a.PushComponent(ref keyboardComponent), b => b.PopComponent(ref keyboardComponent));
+        RegisterComponents<CharacterComponent>(a => a.PushComponent(ref characterComponent), b => b.PopComponent(ref characterComponent));
     }
 
     protected override void UpdateSystem()

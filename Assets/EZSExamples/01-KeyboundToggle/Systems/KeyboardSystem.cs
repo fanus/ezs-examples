@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
 public class KeyboardSystem : EZS.SystemCore
 {
@@ -6,7 +7,7 @@ public class KeyboardSystem : EZS.SystemCore
 
 	public override void InitSystem()
 	{
-		RegisterComponent<KeyboardComponent>(a => a.DefineComponent(ref keyboardComponent), b => b.NullComponent(ref keyboardComponent));
+		RegisterComponents<KeyboardComponent>(a => a.PushComponent(ref keyboardComponent), b => b.PopComponent(ref keyboardComponent));
 	}
 
 	protected override void UpdateSystem()
