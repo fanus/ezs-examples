@@ -1,5 +1,8 @@
 # EZS & Examples
 
+## Unity Editor Development Only
+This currently only works in Unity itself. Trying to build it won't work until I've cleaned up and tested EZS Core on each platform. This is high priority for the next upcoming release.
+
 ## Requirements
 - Unity 2018.1.x or newer
 
