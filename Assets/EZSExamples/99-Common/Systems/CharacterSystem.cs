@@ -15,7 +15,7 @@ public class CharacterSystem : EZS.SystemCore
 	public override void InitSystem()
 	{
 		RegisterEventEnum<CharacterEvents>();
-		RegisterComponents<CharacterComponent>(a => a.PushComponent(ref characterComponent), b => b.PopComponent(ref characterComponent));
+		RegisterComponent<CharacterComponent>(a => a.PushComponent(ref characterComponent), b => b.PopComponent(ref characterComponent));
 	}
 
 	public override void Ready()

@@ -7,7 +7,7 @@ public class KeyboardSystem : EZS.SystemCore
 
 	public override void InitSystem()
 	{
-		RegisterComponents<KeyboardComponent>(a => a.PushComponent(ref keyboardComponent), b => b.PopComponent(ref keyboardComponent));
+		RegisterComponent<KeyboardComponent>(a => a.PushComponent(ref keyboardComponent), b => b.PopComponent(ref keyboardComponent));
 	}
 
 	protected override void UpdateSystem()
