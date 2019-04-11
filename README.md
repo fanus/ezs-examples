@@ -1,5 +1,11 @@
 # EZS & Examples
 
+## Usage
+Download the latest .unitypackge files from the releases page:
+
+https://github.com/fanus/ezs-unity/releases
+(includes the EZS library file and optional examples)
+
 ## Unity Editor Development Only
 This currently only works in Unity itself. Trying to build it won't work until I've cleaned up and tested EZS Core on each platform. This is high priority for the next upcoming release.
 
