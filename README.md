@@ -8,13 +8,11 @@ Download and import the latest release files and check out the examples:
 
 https://github.com/fanus/ezs-unity/releases
 
+## Documentation
+(todo)
+
 ## Developing & Deploying
-EZS currently offers two DLL references. While you develop you game in Unity, you should be using the `EZS.Editor.dll` reference because it adds lots of convenient feature to develop your game. In the examples you will see that the GameObject named "EZS" uses the EZS component from this reference (highlighted in yellow and aqua).
-
-![HowToDeployImage](https://github.com/fanus/ezs-unity/blob/master/HowToDeployImage.JPG "How To Deploy Image")
-
-When you try deploy your game an error will occur because the `EZS.Editor.dll` reference uses Unity's `UnityEditor` namespace. To fix this you must first disable the `EZS.Editor.dll` reference and enable the `EZS.dll` reference. Then use the EZS component (highlighted in red) from the enabled reference instead.
-
+EZS currently offers two DLL references. While you develop your game in Unity, you should be using the `EZS.Editor.dll` reference because it adds lots of convenient feature to develop your game. The core `EZS.dll` references should always be used.
 
 ## Designing your code
 Specifically for C# there are a few rules that you will have to follow in order to keep the design maintained as you develop your game.
