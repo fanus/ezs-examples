@@ -333,9 +333,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 249291836}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 1565252716, guid: b3564c4a0b8640a4599e940c04d8565a, type: 3}
+  m_Script: {fileID: 1565252716, guid: 83578b04d469a9049af977597465203f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMesh: {fileID: 627171645}
 --- !u!1 &347966874
 GameObject:
   m_ObjectHideFlags: 0
@@ -1489,7 +1490,7 @@ MonoBehaviour:
   m_Script: {fileID: -2057726668, guid: 83578b04d469a9049af977597465203f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EditMode: 0
+  EditMode: 1
 --- !u!4 &1068864583
 Transform:
   m_ObjectHideFlags: 0

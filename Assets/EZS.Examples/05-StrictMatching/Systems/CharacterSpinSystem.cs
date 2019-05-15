@@ -1,9 +1,8 @@
 ﻿// TODO: Explain demonstration
 
+using EZS;
 using UnityEngine;
 
-namespace EZS.Examples
-{
     public class CharacterSpinSystem : EZS.System
     {
         private SpinComponent[] spinComponents;
@@ -24,4 +23,3 @@ namespace EZS.Examples
             }
         }
     }
-}

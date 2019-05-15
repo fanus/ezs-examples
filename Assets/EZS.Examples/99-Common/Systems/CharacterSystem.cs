@@ -1,9 +1,8 @@
 ﻿// TODO: Explain demonstration
 
+using EZS;
 using UnityEngine;
 
-namespace EZS.Examples
-{
     public class CharacterSystem : EZS.System
     {
         private CharacterComponent characterComponent;
@@ -49,4 +48,3 @@ namespace EZS.Examples
             }
         }
     }
-}

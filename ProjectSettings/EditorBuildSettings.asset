@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/EZS.Examples/01-KeyboundToggle/01-KeybindToggle.unity
-    guid: 213b7fa87f73442469f15cf59514a661
+    path: Assets/EZS.Test/RandomTesting.unity
+    guid: 861ce77dbd096b349a37fa363d7a7ae1
   m_configObjects: {}

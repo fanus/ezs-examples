@@ -1,10 +1,9 @@
 ﻿// TODO: Explain demonstration
 
+using EZS;
 using System.Linq;
 using UnityEngine;
 
-namespace EZS.Examples
-{
     public class SpriteColorizerSystem : EZS.System
     {
         private SpriteColorizerComponent[] spriteColorizerComponents;
@@ -27,4 +26,3 @@ namespace EZS.Examples
             }
         }
     }
-}
