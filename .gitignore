@@ -8,3 +8,7 @@
 
 *.sln
 *.csproj
+
+/Assets/EZS.Examples/TODO-03-DialogSwitcher/
+/Assets/EZS.Examples/TODO-03-DialogSwitcher.meta
+/Assets/EZS.Test
