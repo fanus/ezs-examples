@@ -18,12 +18,7 @@ using UnityEngine;
         public override void InitSystem()
         {
             RegisterEventEnum<CharacterEvents>();
-            RegisterComponent<CharacterComponent>(a => a.PushComponent(ref characterComponent), b => b.PopComponent(ref characterComponent));
-        }
-
-        public override void Ready()
-        {
-            characterSprite = characterComponent.GetComponent<SpriteRenderer>();
+            RegisterComponent<CharacterComponent>(a => a.PushComponent(ref characterComponent, ref characterSprite), b => b.PopComponent(ref characterComponent, ref characterSprite));
         }
 
         [EnumAction(typeof(CharacterEvents))]
